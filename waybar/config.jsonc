@@ -10,6 +10,7 @@
         "network",
         "pulseaudio",
         "battery",
+        "tray",
         "custom/power",
         "clock"
     ],
@@ -69,7 +70,7 @@
         "ignored-sinks": ["Easy Effects Sink"]
     },
     "network": {
-        "interface": "enp34s0",
+        "interface": "wlan0",
         "format": "{ifname}",
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ipaddr}/{cidr} 󰊗",
