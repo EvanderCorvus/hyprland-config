@@ -1,0 +1,29 @@
+[wallpaper]
+enabled = false
+
+[bar.default]
+thickness = 44
+scale = 1.2
+# default end list minus "media" (now-playing)
+end = [
+    "tray",
+    "notifications",
+    "clipboard",
+    "network",
+    "bluetooth",
+    "volume",
+    "brightness",
+    "battery",
+    "control-center",
+    "session"
+]
+
+# Sunrise/sunset for theme mode "auto" (light by day, dark by night).
+# ponytail: coords from tz Europe/Berlin (zone1970.tab), offline; swap for your city or auto_locate = true for exact times
+[location]
+latitude = 52.5
+longitude = 13.37
+
+# no track-change popup when music plays
+[osd.kinds]
+media = false
